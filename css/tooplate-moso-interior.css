@@ -2,17 +2,18 @@
 
 Tooplate 2133 Moso Interior
 
-https://www.tooplate.com/view/2133-moso-interior
+https://www.tooplate.om/view/2133-moso-interior
 
 */
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
 :root {
-  --white-color:                 /* #ffffff*/ #b0b9c9;
+  --white-color:                  #ffffff; ;
   --primary-color:                #2a3750;
-  --secondary-color:              #f65129;
+  --secondary-color:              #1369ce;
   --section-bg-color:             #f9f9f9;
   --site-footer-bg-color:         #36363e;
   --custom-btn-bg-color:          #00a05d;
@@ -684,7 +685,8 @@ strong {
 
 .reviews-bottom {
   background: var(--secondary-color);
-  background: linear-gradient(180deg, rgba(246,81,41,1) 0%, rgba(255,190,140,1) 100%);
+  /* background: linear-gradient(180deg, rgba(246,81,41,1) 0%, rgba(255,190,140,1) 100%); */
+  background: linear-gradient(180deg,#1369ce 0%, #6499d6 100%);
   position: relative;
   padding: 10px 36px;
 }
@@ -746,6 +748,24 @@ strong {
   opacity: 1;
 }
 
+/*---------------------------------------
+  HOME SHOP              
+-----------------------------------------*/
+.shop-thumbs {
+  margin-bottom: 24px;
+}
+
+.shop-image-wrap {
+  position: relative;
+}
+
+.shop-image-wrap:hover .shop-btn-wrap {
+  opacity: 1;
+}
+
+/*---------------------------------------
+  HOME SHOP              
+-----------------------------------------*/
 .shop-icons-wrap {
   position: absolute;
   top: 0;
@@ -778,10 +798,10 @@ strong {
 
 .shop-image {
   display: block;
+  
   border-radius: var(--border-radius-medium);
 }
-
-.shop-body {
+hop-body {
   padding: 20px;
   padding-bottom: 0;
 }
@@ -932,17 +952,18 @@ strong {
   padding-top: 0;
 }
 
-.site-footer h3 {
+.site-footer h2 {
   line-height: normal;
 }
 
-.site-footer h3 .custom-link,
+.site-footer h2 .custom-link,
 .site-footer .social-icon-link:hover {
   color: var(--white-color);
 }
 
-.site-footer h3 .custom-link:hover {
-  color: var(--primary-color);
+.site-footer h2 .custom-link:hover {
+  /* color: var(--primary-color); */
+  color: #00a05d;
 }
 
 .copyright-text {
@@ -1529,7 +1550,7 @@ strong {
 /*---------------------------------------
   Why US?? Page STYLES               
 -----------------------------------------*/
-@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+/* @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
 
 ul.ul-cards {
     width: min(100%, 60rem);
@@ -1641,4 +1662,187 @@ ul.ul-cards>li::after{
     border-top-left-radius: var(--flap-height);
     border-top-right-radius: var(--flap-height);
     background-color: var(--accent-color);
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+/* * {
+    transition: all 0.3s ease-out;
+}
+html, body {
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.why{
+    /* padding-top: 123px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s ease-out;
+
+}
+h3 {
+    color: #262626;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #666;
+}
+p.small {
+    font-size: 14px;
+}
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #1369ce;
+    border-radius: 0 4px 0 32px;
+}
+.go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+}
+/* .card1 {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+}
+.card1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.card1:hover:before {
+    transform: scale(21);
+}
+.card1:hover p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+.card1:hover h3 {
+    transition: all 0.3s ease-out;
+    color: #fff;
+} */
+.card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+}
+.card2:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+.card2:hover:before {
+    transform: scale(2.15);
+}
+
+.card3 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 561px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+}
+.card3:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.card3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #00838d;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(2);
+  transform-origin: 50% 50%;
+  transition: transform 0.15s ease-out;
+}
+.card3:hover:before {
+  transform: scale(2.15);
 }
