@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/tooplate-moso-interior.css" rel="stylesheet">
+    <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {}
+
+      a,
+      a:hover,
+      a:focus,
+      a:active {
+        text-decoration: none;
+        outline: none;
+      }
+
+      a,
+      a:active,
+      a:focus {
+        color: #333;
+        text-decoration: none;
+        transition-timing-function: ease-in-out;
+        -ms-transition-timing-function: ease-in-out;
+        -moz-transition-timing-function: ease-in-out;
+        -webkit-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        transition-duration: .2s;
+        -ms-transition-duration: .2s;
+        -moz-transition-duration: .2s;
+        -webkit-transition-duration: .2s;
+        -o-transition-duration: .2s;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      span,
+      a,
+      a:hover {
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .section-head {
+        margin-bottom: 60px;
+      }
+
+      .section-head h4 {
+        position: relative;
+        padding: 0;
+        color: #f91942;
+        line-height: 1;
+        letter-spacing: 0.3px;
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: none;
+        margin-bottom: 30px;
+      }
+
+      .section-head h4:before {
+        content: '';
+        width: 60px;
+        height: 3px;
+        background: #f91942;
+        position: absolute;
+        left: 0px;
+        bottom: -10px;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      .section-head h4 span {
+        font-weight: 700;
+        padding-bottom: 5px;
+        color: #2f2f2f
+      }
+
+      p.service_text {
+        color: #cccccc !important;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+      }
+
+      .section-head p,
+      p.awesome_line {
+        color: #818181;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+      }
+
+      .extra-text {
+        font-size: 34px;
+        font-weight: 700;
+        color: #2f2f2f;
+        margin-bottom: 25px;
+        position: relative;
+        text-transform: none;
+      }
+
+      .extra-text::before {
+        content: '';
+        width: 60px;
+        height: 3px;
+        background: #f91942;
+        position: absolute;
+        left: 0px;
+        bottom: -10px;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      .extra-text span {
+        font-weight: 700;
+        color: #f91942;
+      }
+
+      .item {
+        background: #fff;
+        text-align: center;
+        padding: 30px 25px;
+        -webkit-box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        border: 5px solid rgba(0, 0, 0, 0.07);
+        margin-bottom: 30px;
+        -webkit-transition: all .5s ease 0;
+        transition: all .5s ease 0;
+        transition: all 0.5s ease 0s;
+      }
+
+      .item:hover {
+        background: #1369ce;
+        box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
+        -webkit-transition: all .5s ease 0;
+        transition: all .5s ease 0;
+        transition: all 0.5s ease 0s;
+      }
+
+      .item:hover .item,
+      .item:hover span.icon {
+        background: #fff;
+        border-radius: 10px;
+        -webkit-transition: all .5s ease 0;
+        transition: all .5s ease 0;
+        transition: all 0.5s ease 0s;
+      }
+
+      .item:hover h6,
+      .item:hover p {
+        color: #fff;
+        -webkit-transition: all .5s ease 0;
+        transition: all .5s ease 0;
+        transition: all 0.5s ease 0s;
+      }
+
+      .item .icon {
+        font-size: 40px;
+        margin-bottom: 25px;
+        color: #f91942;
+        width: 90px;
+        height: 90px;
+        line-height: 96px;
+        border-radius: 50px;
+      }
+
+      .item .feature_box_col_one {
+        background: rgba(247, 198, 5, 0.20);
+        color: #f91942
+      }
+
+      .item .feature_box_col_two {
+        background: rgba(255, 77, 28, 0.15);
+        color: #f91942
+      }
+
+      .item .feature_box_col_three {
+        background: rgba(0, 147, 38, 0.15);
+        color: #f91942
+      }
+
+      .item .feature_box_col_four {
+        background: rgba(0, 108, 255, 0.15);
+        color: #f91942
+      }
+
+      .item .feature_box_col_five {
+        background: rgba(146, 39, 255, 0.15);
+        color: #f91942
+      }
+
+      .item .feature_box_col_six {
+        background: rgba(23, 39, 246, 0.15);
+        color: #f91942
+      }
+
+      .item p {
+        font-size: 15px;
+        line-height: 26px;
+      }
+
+      .item h6 {
+        margin-bottom: 20px;
+        color: #2f2f2f;
+      }
+
+      .mission p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 28px;
+        font-weight: 500;
+      }
+
+      .mission i {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #f91942;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 25px;
+      }
+
+      .mission .small-text {
+        margin-left: 10px;
+        font-size: 13px;
+        color: #666;
+      }
+
+      .skills {
+        padding-top: 0px;
+      }
+
+      .skills .prog-item {
+        margin-bottom: 25px;
+      }
+
+      .skills .prog-item:last-child {
+        margin-bottom: 0;
+      }
+
+      .skills .prog-item p {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      .skills .prog-item .skills-progress {
+        width: 100%;
+        height: 10px;
+        background: #e0e0e0;
+        border-radius: 20px;
+        position: relative;
+      }
+
+      .skills .prog-item .skills-progress span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #f91942;
+        width: 10%;
+        border-radius: 10px;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+      }
+
+      .skills .prog-item .skills-progress span:after {
+        content: attr(data-value);
+        position: absolute;
+        top: -5px;
+        right: 0;
+        font-size: 10px;
+        font-weight: 600;
+        color: #e9eaeb;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 3px 7px;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+      <div class="container">
+        <!-- <img src="images/Logo.jpg" style="width:70px" height="50px"> -->
+        <a class="navbar-brand" href="index.html">Sander <span class="tooplate-red"></span>
+          <span class="tooplate-green">Export</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link click-scroll" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link click-scroll" href="#section_2">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vision.html">Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link click-scroll" href="#section_3">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link click-scroll" href="welfare.html">Welfare</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header class="site-header d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-12">
+              <h1 class="text-center" style="color: #ffff">Vision Page</h1>
+              <p class="text-center" style="color: #333; font-size:25px;">We strive to establish innovative and sustainable ethical standards for corporate behavior in the export industry.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class=" align-items-right" id="section_2">
+        <div class="feat bg-gray pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_four">
+                    <i class="fa-solid fa-bullseye fa-lg"></i>
+                  </span>
+                  <h6>Mission</h6>
+                  <p>We help our customers thrive by offering excellent products and services that foster the growth of their businesses.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_three">
+                    <i class="fa-solid fa-thumbs-up fa-beat-fade fa-lg"></i>
+                  </span>
+                  <h6>Quality</h6>
+                  <p>Our primary objective is to guarantee that our clients receive the greatest goods and services on the market.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_one">
+                    <i class="fa-solid fa-screwdriver-wrench fa-lg"></i>
+                  </span>
+                  <h6>Service</h6>
+                  <p>We think that the happiness of our customers is essential to the success of our company. We are aware that providing the greatest goods and services to our consumers depends on understanding them and their demands</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="item">
+                  <span class="icon feature_box_col_two">
+                    <i class="fa fa-anchor"></i>
+                  </span>
+                  <h6>Integrity</h6>
+                  <p>Respect for our clients, staff, and stakeholders is at the center of our basic principles and beliefs. We also think it is crucial for our development and growth for people in our society and the surroundings to respect us. Most significantly, we think that giving our employees a safe, tranquil, and healthy workplace would improve their performance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36363e" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer " style="padding-top: 5%;padding-bottom: 1%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-5 col-12 mb-3">
+            <h2>
+              <a href="index.html" class="custom-link mb-1">Sander Exports</a>
+            </h2>
+            <p class="text-white">Bringing the Best of India to the World, <br> Where India Meets the World: Quality Assured </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12 ms-lg-auto mb-3">
+            <h2 class="text-white mb-3">Store</h2>
+            <p class="text-white mt-2">
+            <h3 style="color:#ffff">
+              <i class="bi-geo-alt"></i>N42 /JB 1/10/3 kamat wada CIDCO 4th scheme Nashik 422009
+            </h3>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 mb-3">
+            <h2 class="text-white mb-3">Contact Info</h2>
+            <p class="text-white mb-1">
+            <h3>
+              <i class="bi-telephone me-1" style="color:white"></i>
+              <a href="tel: 090-080-0760" class="text-white"> +91-9730439015
+            </h3>
+            </a>
+            </p>
+            <p class="text-white mb-0">
+            <h3>
+              <i class="bi-envelope me-1" style="color: #ffff;"></i>
+              <a href="hitesh@sanderexports.com" class="text-white"> hitesh@sanderexports.com </a>
+            </h3>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-7 copyright-text-wrap col-12 d-flex flex-wrap  mt-4 ms-auto" style="align-items: center;">
+            <p class="copyright-text  mb-0 me-4">Copyright © Sander Exports</p>
+            <ul class="social-icon">
+              <li class="social-icon-item">
+                <a href="#" class="social-icon-link social-icon-twitter bi-twitter"></a>
+              </li>
+              <li class="social-icon-item">
+                <a href="#" class="social-icon-link social-icon-facebook bi-facebook"></a>
+              </li>
+              <li class="social-icon-item">
+                <a href="#" class="social-icon-link social-icon-instagram bi-instagram"></a>
+              </li>
+              <li class="social-icon-item">
+                <a href="#" class="social-icon-link social-icon-pinterest bi-pinterest"></a>
+              </li>
+              <li class="social-icon-item">
+                <a href="#" class="social-icon-link social-icon-whatsapp bi-whatsapp"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

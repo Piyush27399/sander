@@ -967,6 +967,22 @@ hop-body {
   color: #00a05d;
 }
 
+/*  */
+
+.site-footer h3 {
+  line-height: normal;
+}
+
+.site-footer h3 .custom-link,
+.site-footer .social-icon-link:hover {
+  color: var(--white-color);
+}
+
+.site-footer h3 .custom-link:hover {
+  /* color: var(--primary-color); */
+  color: #00a05d;
+}
+
 .copyright-text {
   color: var(--section-bg-color);
   font-size: var(--copyright-font-size);
@@ -1719,8 +1735,8 @@ p.small {
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 52px;
+    height: 52px;
     overflow: hidden;
     top: 0;
     right: 0;
