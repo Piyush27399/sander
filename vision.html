@@ -21,13 +21,12 @@
     <link href="css/tooplate-moso-interior.css" rel="stylesheet">
     <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
     <style>
-      h1,
+      /* h1,
       h2,
       h3,
       h4,
       h5,
-      h6 {}
-
+      h6,
       a,
       a:hover,
       a:focus,
@@ -51,7 +50,38 @@
         -moz-transition-duration: .2s;
         -webkit-transition-duration: .2s;
         -o-transition-duration: .2s;
-      }
+      } */
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+a,
+a:active,
+a:focus {
+  color: #007bff; /* change the link color to blue */
+  text-decoration: underline; /* add an underline when the link is hovered or focused */
+  transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-duration: .3s; /* increase the transition duration to 0.3 seconds */
+  -ms-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+}
+
 
       ul {
         margin: 0;
@@ -327,16 +357,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link click-scroll" href="index.html">Home</a>
+              <a class="nav-link click-scroll" href="index.html#section_0">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link click-scroll" href="#section_2">Product</a>
+              <a class="nav-link click-scroll" href="shop-detail.html">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="vision.html">Vision</a>
+              <a class="nav-link" href="#section_2">Vision</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link click-scroll" href="#section_3">Contact</a>
+              <a class="nav-link click-scroll" href="index.html#section_3">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link click-scroll" href="welfare.html">Welfare</a>
