@@ -22,6 +22,7 @@
   --instagram-color:              #c13584;
   --pinterest-color:              #e60023;
   --whatsapp-color:               #128c7e;
+  --linkedin-color:               #3166ec;
 
   --body-font-family:             'Sofia Sans Condensed', sans-serif;
   
@@ -1036,7 +1037,9 @@ hop-body {
 .social-icon-whatsapp {
   color: var(--whatsapp-color);
 }
-
+.social-icon-linkedin {
+  color: var(--linkedin-color);
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
