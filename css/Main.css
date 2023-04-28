@@ -1995,7 +1995,7 @@ a:focus {
         box-shadow: 1px 1px 15px 3px gray; */
         width: 212px;
         height: 215px;
-        margin-left: 15%;
+       
         border-radius: 50%;
         display: flex;
         object-fit: cover;
