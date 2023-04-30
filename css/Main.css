@@ -1982,17 +1982,17 @@ a:focus {
         padding: 3px 7px;
         border-radius: 30px;
       }
-
+/* 
       .AI
       {
-        /* width: 212px;
+        width: 212px;
         height: 215px;
         border-radius: 50%;
         display: flex;
         background-position:center;
         background-repeat:no-repeat;
         background-size:cover;
-        box-shadow: 1px 1px 15px 3px gray; */
+        box-shadow: 1px 1px 15px 3px gray;
         width: 212px;
         height: 215px;
        
@@ -2007,14 +2007,12 @@ a:focus {
 
 
 
-  /* Adjust height for Mobile M */
   @media (min-width: 320px) and (max-width: 374px) {
     .AI {
       height: 137px;
     }
   }
 
-  /* Adjust height for Mobile L */
   @media (min-width: 375px) and (max-width: 425px) {
     .AI {
       height: 188px;
@@ -2022,9 +2020,21 @@ a:focus {
   }
 
 
-/* Adjust height for Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .AI {
     height: 215px;
   }
+} */
+@media screen and (max-width: 480px){
+.about-image-small {
+    width: 145px;
+    height: 113px;
+}
+}
+
+@media screen and (max-width: 480px){
+.about-image {
+    width: 205px;
+    height: 159px;
+}
 }
